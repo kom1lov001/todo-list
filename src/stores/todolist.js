@@ -8,7 +8,7 @@ state:()=>({
 
 actions:{
   addTodo(item){
-    this.TDoList.unshift({item,id:this.id++,completed:false})
+this.TDoList.unshift({item,id:this.id++,completed:false})
   },
   deleteTodo(itemId){
     this.ToDoList = this.ToDoList.filter(listItem =>{
