@@ -20,6 +20,8 @@ if(item.length == 0){
 }
 store.addTodo(item)
 todo.value=''
+
+
 }
   </script>
   <style>
